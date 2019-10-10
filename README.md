@@ -36,9 +36,9 @@ The commands below are used to submit changes from your local repository to the
 origin. Add in the arguments for the commands and use them to push these changes to your remote repository on GitHub.
 
 ```
-git add
-git commit
-git push
+git add <file-name>
+git commit -m "<message>"
+git push <remote> <branch> //git push origin master
 ```
 
 ## Mission 2
@@ -52,4 +52,20 @@ git pull upstream
 More changes made here wooohoooo ```
 
 ## Mission 3
-Changes made here
+
+The following commands are used to create and switch to 
+new branches.
+
+```
+git branch
+git checkout -b new-branch
+git checkout existing-branch
+```
+
+Using these, add a new file to the repository (whatever 
+you would like!) and commit it to your fork.
+
+On GitHub, you should see the option to create a Pull 
+Request from your branch back to the original GitDemo 
+repository. Follow the steps there and we'll see what 
+results!
